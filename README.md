@@ -60,3 +60,4 @@ index.html#yourpassword
 - The security of the pages is entirely dependent on the strength of the passwords  
 - Password recovery is impossible without the original files or passwords  
 - Increasing PBKDF2 iterations improves security but slows encryption/decryption, and vice versa  
+- This project was initially created and iterated on my website repo before being moved to its own repository
