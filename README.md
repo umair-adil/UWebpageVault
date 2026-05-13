@@ -12,10 +12,10 @@ Encrypt and host private HTML pages with password-based access without requiring
 ## How it works
 
 - encrypter.js encrypts HTML files into secure.json  
-- decryptpage.js decrypts and loads pages in the browser  
+- index.html decrypts and loads pages in the browser  
 - Uses AES-256-GCM encryption with PBKDF2 key derivation  
 - Supports multiple passwords per page  
-- Supports JavaScript inside the encrypted HTML pages  
+- Supports JavaScript/CSS inside the encrypted HTML pages  
 
 ---
 
@@ -33,7 +33,6 @@ node encrypter.js
 Only publish these files:
 
 - index.html  
-- decryptpage.js  
 - secure.json  
 
 Do NOT publish:
