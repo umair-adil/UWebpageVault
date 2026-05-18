@@ -7,8 +7,6 @@ https://www.youtube.com/watch?v=usWqJOVyS10
 
 Encrypt and host private HTML pages with password-based access without requiring a back-end server.
 
----
-
 ## How it works
 
 - encrypter.js encrypts HTML files into secure.json  
@@ -18,16 +16,12 @@ Encrypt and host private HTML pages with password-based access without requiring
 - Supports JavaScript/CSS inside the encrypted HTML pages  
 - Images can be included by converting to base64 and embedding them into the HTML files themselves  
 
----
-
 ## Setup
 
 1. Place your HTML files beside encrypter.js  
 2. Run:
 node encrypter.js
 3. Follow the console instructions  
-
----
 
 ## Publish
 
@@ -41,8 +35,6 @@ Do NOT publish:
 - passwords_file_PRIVATE.json  
 - Original HTML files  
 
----
-
 ## Accessing Pages
 
 Pages can be opened in index.html either:
@@ -51,9 +43,6 @@ Pages can be opened in index.html either:
 - Or by using a URL hash, such as:  
 
 yourlink.url/page#yourpassword
-
-
----
 
 ## Notes
 
