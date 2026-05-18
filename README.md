@@ -16,6 +16,7 @@ Encrypt and host private HTML pages with password-based access without requiring
 - Uses AES-256-GCM encryption with PBKDF2 key derivation  
 - Supports multiple passwords per page  
 - Supports JavaScript/CSS inside the encrypted HTML pages  
+- Images can be included by converting to base64 and embedding them into the HTML files themselves  
 
 ---
 
@@ -49,7 +50,7 @@ Pages can be opened in index.html either:
 - By entering a password manually  
 - Or by using a URL hash, such as:  
 
-index.html#yourpassword
+yourlink.url/page#yourpassword
 
 
 ---
